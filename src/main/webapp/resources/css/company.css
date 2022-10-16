@@ -1,0 +1,324 @@
+@charset "UTF-8";
+
+.doctorMgrH {
+	border-collapse: separate;
+	border-spacing: 1px;
+	text-align: center;
+	line-height: 1.5;
+	margin: 0 auto;
+	margin-top: 1rem;
+}
+.doctorMgrM {
+	letter-spacing: 7px;
+	font-size: 1.6rem;
+	width: 20rem;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #fff;
+	background: #e2baa7;
+}
+.doctorMgrB {
+	width: 155px;
+	font-size: 1.2rem;
+	padding: 10px;
+	vertical-align: top;
+	color: rgb(97, 97, 97);
+	border-bottom: 1px solid #ccc;
+	background: #fafafa;
+}
+.commentTb{
+	border-collapse: separate;
+	border-spacing: 1px;
+	text-align: center;
+	line-height: 1.5;
+	margin: 0 auto;
+}
+.doctorMgrCM1{
+	letter-spacing: 1px;
+    font-size: 1.3rem;
+    width: 20rem;
+    padding: 6px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: #e2baa7;
+}
+.doctorMgrCM2{
+	letter-spacing: 2px;
+    font-size: 1.2rem;
+    height: 0rem;
+    width: 58rem;
+    padding: 11px;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+    background: white;
+}
+.doctorMgrCM{
+	letter-spacing: 2px;
+    font-size: 1.2rem;
+    height: 0rem;
+    padding: 2px;
+    font-weight: bold;
+    vertical-align: top;
+    color: rgb(97, 97, 97);
+    background: #c9c9c9;
+}
+.doctorMgrC{
+	font-size: 1.2rem;
+	padding: 7px;
+	vertical-align: top;
+	color: rgb(97, 97, 97);
+	border-bottom: 1px solid #ccc;
+	background: #fafafa;
+}
+
+.patientMgrH {
+	border-collapse: separate;
+	border-spacing: 1px;
+	text-align: center;
+	line-height: 1.5;
+	margin: 0 auto;
+	width:79.6rem;
+}
+.patientMrgS{
+	text-align:right;
+	margin-right:3px;
+}
+.patientMgrM {
+	letter-spacing: 1px;
+	font-size: 1.3rem;
+	width: 20rem;
+	padding: 6px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #fff;
+	background: #e2baa7;
+}
+.patientMgrB {
+	width: 155px;
+	font-size: 1.1rem;
+	padding: 8px;
+	vertical-align: top;
+	color: rgb(97, 97, 97);
+	border-bottom: 1px solid #ccc;
+	background: #fafafa;
+}
+.m{
+	overflow-x: auto;
+	white-space: nowrap;
+}
+.docCo{
+	font-size:1.5rem;
+	margin:auto;
+	width: 51rem;
+}
+#healthList{
+	margin-top:2rem;
+	margin-bottom:2rem;
+}
+
+/*버튼 정렬을 위해 id값 추가*/
+#doctorMgrTitleDiv {
+	width: 70rem;
+	height: 2rem;
+	
+	margin: 0 auto;
+}
+
+#addDocBtn {
+	/*float: right;*/
+	margin-left: 59rem;
+}
+
+#doctorMgrTitle {
+	color: rgb(121, 121, 121);
+	font-size: 2rem;
+	height: 3rem;
+	width: 15rem;
+	margin: 0 auto;
+	text-align: center;
+}
+#checkCompanyTitleDiv {
+	width: 40rem;
+	height: 26rem;
+	margin: auto;
+	margin-top:6rem;
+}
+#checkCompanyTitle{
+	color: rgb(121, 121, 121);
+	font-size: 2rem;
+	height: 3rem;
+	width: 38rem;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom:3rem;
+}
+.companyCF{
+	margin:0 auto;
+	text-align:center;
+}
+.basicInput{
+	margin:auto;
+	margin-top:2rem;
+}
+.basicBtn{
+	margin:auto;
+	margin-top:2rem;
+}
+
+
+/*모달*/
+.modal{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: none;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.editBtn{
+	float:right;
+}
+
+
+
+
+/*기업 회원가입*/
+
+.fullJoin{
+	margin:0 auto;
+	margin-top:2rem;
+	width:40rem;
+	height:40rem;
+}
+.formOne{
+	margin-left: 7.5rem;
+}
+.joinTitle{
+	margin:0 auto;
+	margin-top:2rem;
+	text-align:center;
+	font-size:3rem;
+	letter-spacing: 8px;
+	width: 15rem;
+	padding: 10px;
+	font-weight: bold;
+	color: rgb(97, 97, 97);
+}
+.smallJoinTitle{
+	margin:0 auto;
+	margin-top:1rem;
+	text-align:center;
+	font-size:2.5rem;
+	letter-spacing: 7px;
+	width: 20rem;
+	padding: 10px;
+	font-weight: bold;
+	color: rgb(97, 97, 97);
+}
+
+/* 회원가입 Input*/
+.accessInput-input-group {
+ width:27.9rem;
+ margin:0 auto;
+ position: relative;
+ margin-top:2rem;
+}
+.accessInput-input-group2 {
+ width:32.4rem;
+ margin:0 auto;
+ position: relative;
+ margin-top:2rem;
+}
+
+.accessInput {
+ border: none;
+ margin-top:0.5rem;
+ border-radius: 0;
+ border-bottom: 0.125rem solid var(--accessInput-color-ink-medium-contrast);
+ width: 10rem;
+ height: 2rem;
+ font-size: 1.2rem;
+ padding-left: 0.875rem;
+ line-height: 147.6%;
+ padding-top: 0.5rem;
+ padding-bottom: 0.5rem;
+ width: 20.4375rem;
+ background-color: #fff1f1;
+}
+.necessaryInfo{
+	text-align:center;
+	font-size:1.2rem;
+	margin-top:10px;
+	width:4.5rem;
+	height:2rem;
+	float:left;
+}
+.joinconfirm{
+	margin-left: 7.5rem;
+    margin-top: 2rem;
+}
+.necessaryPoint{
+	color:#ff6262;
+	font-size:1rem;
+	margin-right:6px;
+}
+.form{
+	width:6.5rem;
+	height:2.3rem;
+	text-align:center;
+}
+#formTwo{
+	text-align:center;
+}
+.isCheckCC{
+	margin: 0 auto;
+    width: 16rem;
+}
+.modal_head{
+	margin-bottom:3rem;
+}
+.modal_content{
+	width:37rem;
+	height:24rem;
+	margin:0 auto;
+}
+.mJoinGroup{
+ width:32rem;
+ height:2.5rem;
+ margin:0 auto;
+ position: relative;
+ margin-top:2rem;
+ font-size:1.2rem;
+}
+.doc{
+	float:left;
+	margin-left:5px;
+	margin-top:1px;
+}
+.aDoc{
+	margin-top:3rem;
+}
+.checkPW{
+	font-size:13px;
+	height:1rem;
+}
+.isCheckPW{
+	font-size:16px;
+	height:1rem;
+}
+.vp{
+	margin-left: -8.5rem;
+}
+.resAlert{
+	font-size: 3.5rem;
+    text-align: center;
+    width: 69rem;
+    margin: auto;
+    margin-top: 13rem;
+}

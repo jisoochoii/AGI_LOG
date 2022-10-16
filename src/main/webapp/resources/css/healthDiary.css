@@ -1,0 +1,203 @@
+/* etc */
+#middle {
+	display: flex;
+}
+
+#leftArea {
+	position: relative;
+	width: 250px;
+}
+
+#rightArea {
+	position: relative;
+	padding: 1% 0%;
+	box-sizing: border-box;
+	margin: 0;
+	overflow: hidden;
+}
+
+.writeBtn {
+	width: 8rem;
+	height: 2rem;
+	font-size: 1.4rem;
+	border: solid 2px rgb(173, 173, 173);
+}
+.saveBtn {
+	width: auto;
+}
+
+/* modal */
+#hdClip {
+	position: fixed;
+	top: 0;
+	width: 150px;
+	transform: translate(-80px, -100px);
+}
+
+.modal_head {
+	display: flex;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    height: 8%;
+    padding: 2% 5%;
+    box-sizing: border-box;
+    font-size: 1.8rem;
+    font-weight: 800;
+    justify-content: space-between;
+}
+
+.modal_content {
+	display: flex;
+	width: 100%;
+	height: 85%;
+	padding: 5% 7%;
+	box-sizing: border-box;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.modal_foot {
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.item {
+	display: flex;
+	width: 300px;
+	align-items: center;
+	font-size: 1.2rem;
+}
+
+.item span {
+	width: 33%;
+}
+
+.item .data {
+	background-color: rgb(229 229 229);
+	font-size: 1.5rem;
+}
+
+.item .unit {
+	width: fit-content;
+	font-size: 1rem;
+	margin-left: 10px;
+}
+
+.mMiniSelect {
+	width: 100px;
+	height: 2rem;
+	font-size: 1rem;
+	border-radius: 5px;
+    border: solid 2px rgb(173, 173, 173);
+    box-sizing: content-box;
+}
+
+.dateInput {
+	font-size: 1.2rem;
+}
+
+.babyInfo {
+	width: 115px;
+	height: 2rem;
+	font-size: 1.3rem;
+	border-radius: 5px;
+    border: solid 2px rgb(173, 173, 173);
+}
+
+/* timepicker */
+.ui-timepicker-container {
+	z-index: 10000000 !important;
+}
+/* diary list */
+#buttonArea {
+	display: flex;
+	margin: 0 auto;
+	padding: 2% 5%;
+	box-sizing: border-box;
+	height: 8%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#diaryArea {
+	margin: 0 auto;
+	padding: 1.5% 5%;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+}
+
+.diary {
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	background-color: white;
+	width: 90%;
+	height: 130px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 8px 0px dimgray;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.diary .title {
+	height: 50px;
+	line-height: 40px;
+	font-size: 1.4rem;
+	padding-left: 65px;
+}
+
+.diary>div {
+	display: flex;
+	align-items: flex-end;
+}
+/* profile */
+.miniProfile {
+	display: flex;
+	align-items: center;
+}
+
+.miniProfile>img {
+	width: 100px;
+	height: 100px;
+}
+
+.miniProfile .text {
+	display: flex;
+	flex-direction: column;
+	height: 60px;
+	margin-left: 5px;
+	font-size: 1.2rem;
+	justify-content: space-between;
+}
+
+.delBtn {
+	z-index: 100;
+}
+
+.delBtn, .closeBtn {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.up {
+	position: absolute;
+	display: none;
+}
