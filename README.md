@@ -23,37 +23,10 @@
 
 ## 기술 스택 
 
-> 언어
-
-<div align="center">
-</div>
-
-> 프론트
-
-<div align="center">
-</div>
-
-> 백
-
-<div align="center">
-</div>
-
-> 라이브러리
-
-<div align="center">
-</div>
-
-> 프레임워크
-
-<div align="center">
-</div>
-
-> API
-
-<div align="center">
-</div>
-
-> ETC
-
-<div align="center">
-</div>
+∙ 개발산출문서 – Excel 
+∙ DB설계 - Oracle SQL Developer 
+∙ IDE 도구 - Eclipse 
+∙ 웹 서버 - Apache Tomcat 9.0 
+∙ 언어 - JAVA / JavaScript / HTML 
+∙ 주요 라이브러리 - jQuery / JSON / MyBatis  
+∙ 프레임워크 - Spring 
