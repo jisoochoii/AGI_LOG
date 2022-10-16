@@ -34,6 +34,5 @@
 ∙ 언어 - JAVA / JavaScript / HTML 
 <br>
 ∙ 주요 라이브러리 - jQuery / JSON / MyBatis  
-<br>
 ∙ 프레임워크 - Spring 
 
