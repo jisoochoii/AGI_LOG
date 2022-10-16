@@ -24,9 +24,16 @@
 ## 기술 스택 
 
 ∙ 개발산출문서 – Excel 
+<br>
 ∙ DB설계 - Oracle SQL Developer 
+<br>
 ∙ IDE 도구 - Eclipse 
+<br>
 ∙ 웹 서버 - Apache Tomcat 9.0 
+<br>
 ∙ 언어 - JAVA / JavaScript / HTML 
+<br>
 ∙ 주요 라이브러리 - jQuery / JSON / MyBatis  
+<br>
 ∙ 프레임워크 - Spring 
+
